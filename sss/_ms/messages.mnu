@@ -1,0 +1,5 @@
+_ms_head " Choose Message   "
+
+_ms_item " Attack           " "_ms_off $smc say_team $R$R$RAttack!!!$R$R$R"
+_ms_item " Sorry            " "_ms_off $smc say_team sorry"
+_ms_item " Exit Menu        " "_ms_off"

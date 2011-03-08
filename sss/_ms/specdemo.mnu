@@ -1,0 +1,13 @@
+_ms_head " Spectator / DemoPlay "
+
+_ms_item " Reconnect as Player   " "_ms_off $smc spectator 0 $smc reconnect"
+_ms_item " Toggle ChaseCam       " "_ms_hide $smc toggle cl_chasecam  $smc cl_chasecam"
+_ms_item " Toggle FoV > demo     " "_ms_hide $smc toggle cl_fovtodemo $smc cl_fovtodemo"
+_ms_item " Toggle FoV < demo     " "_ms_hide $smc toggle cl_fovfromdemo $smc cl_fovfromdemo"
+_ms_item " Toggle 'Follow best'  " "_ms_hide $smc toggle cl_hightrack $smc cl_hightrack"
+
+// to add: demo speed etc.
+
+_ms_item " Toggle CrossHair Nick " "_ms_hide $smc toggle cl_spec_id   $smc cl_spec_id"
+
+//...

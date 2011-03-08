@@ -1,0 +1,11 @@
+_ms_head " Checks:      "
+_ms_item " f_skins      " "say f_skins"
+_ms_item " f_modified   " "f_modified"
+_ms_item " f_ruleset    " "f_ruleset check"
+_ms_item " f_scripts    " "say f_scripts"
+_ms_item " f_fakeshaft  " "say f_fakeshaft"
+_ms_item " f_version    " "say f_version
+_ms_item " f_system     " "say f_system"
+_ms_item " f_server     " "f_server"
+_ms_item " f_cmdline    " "say f_cmdline"
+_ms_item " done         " "_ms_hide"

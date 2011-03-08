@@ -1,0 +1,20 @@
+// Menu System for QW262 by JaM
+// Main Menu file
+
+set tmp $cl_curlybraces
+cl_curlybraces 1
+
+_ms_head " JaM's Main menu"
+_ms_item " Messages          > " "_ms_menu messages.mnu"
+_ms_item " Team Colours      > " "_ms_menu team_colours.mnu"
+_ms_item " Checks            > " "_ms_menu checks.mnu"
+_ms_item " DemoPlay options  > " "_ms_menu demoplay.mnu"
+_ms_item " Spectator         > " "_ms_menu specdemo.mnu"
+if $vid_ref == "gl" {_ms_item " GL settings       > " "_ms_menu gl.mnu"}
+_ms_item " IRC               > " "_ms_menu irc.mnu"
+_ms_item " Servers           > " "_ms_menu servers.mnu"
+_ms_item " Reconnect           " "_ms_off $smc setinfo tf_id 0 $smc reconnect"
+_ms_item " Names             > " "_ms_menu name.mnu"
+_ms_item " Exit Menu           " "_ms_off"
+
+cl_curlybraces $tmp

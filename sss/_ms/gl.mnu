@@ -1,0 +1,8 @@
+_ms_head " GL settings:      "
+_ms_item " texture mode     >" "_ms_menu texture_mode.mnu"
+
+_ms_item " Anisotropy: $gl_anisotropy" 
+_ms_item " Change anisotropy >" "_ms_menu anisotropy.mnu"
+_ms_item " done              " "_ms_hide"
+
+

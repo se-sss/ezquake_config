@@ -1,0 +1,4 @@
+_ms_head " Choose Name      "
+
+_ms_item " bot        " "_ms_off $smc name bot"
+_ms_item " player     " "_ms_off $smc name player"

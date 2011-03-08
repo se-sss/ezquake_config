@@ -1,0 +1,8 @@
+_ms_head " Anysotropy "
+_ms_item " Level 0    " "gl_anisotropy 0"
+_ms_item " Level 1    " "gl_anisotropy 1"
+_ms_item " Level 2    " "gl_anisotropy 2"
+_ms_item " Level 4    " "gl_anisotropy 4"
+_ms_item " Level 8    " "gl_anisotropy 8"
+_ms_item " Level 16   " "gl_anisotropy 16"
+_ms_item " done       " "_ms_hide"

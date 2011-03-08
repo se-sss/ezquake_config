@@ -1,0 +1,4 @@
+_ms_head " Team Colours Options "
+
+_ms_item " Force Colours   " "_ms_off $smc teamcolor 11 $smc enemycolor 12 $smc echo Force Colours"
+_ms_item " Use Real Colours" "_ms_off $smc teamcolor off $smc enemycolor off $smc echo Use Real Colours"

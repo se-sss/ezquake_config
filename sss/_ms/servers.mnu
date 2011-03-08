@@ -1,0 +1,8 @@
+_ms_head " Choose server "
+
+_ms_item " PG0        " "_ms_off $smc connect qw.playground.ru:27500"
+_ms_item " PG1        " "_ms_off $smc connect qw.playground.ru:27501"
+_ms_item " PG2        " "_ms_off $smc connect qw.playground.ru:27502"
+_ms_item " back       " "_ms_esc"
+
+
